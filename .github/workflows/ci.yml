@@ -23,10 +23,9 @@ jobs:
 
       - name: Running Tests
         run: go test -v ./...
-
+  styles:
     name: Styles
     runs-on: ubuntu-latest
-
     steps:
       - name: Check out code
         uses: actions/checkout@v4
