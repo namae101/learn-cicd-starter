@@ -96,3 +96,10 @@ func main() {
 	log.Printf("Serving on port: %s\n", port)
 	log.Fatal(srv.ListenAndServe())
 }
+
+func unsedFunc() {
+	// This function is intentionally left empty.
+	// It serves as a placeholder to demonstrate that
+	// the code structure is maintained without any
+	// functional changes.
+}
